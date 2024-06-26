@@ -1,0 +1,23 @@
+.list-product {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 24px;
+}
+
+.card {
+    background-color: #2d343f;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-title {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 24px 16px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}

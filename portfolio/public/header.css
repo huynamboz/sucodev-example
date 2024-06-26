@@ -1,0 +1,27 @@
+header {
+    background-color: #1b1f24;
+    height: 72px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0px 24px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 32px;
+    color: rgb(46, 129, 255);
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 16px;
+}
+

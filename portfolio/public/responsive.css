@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+
+    .row {
+        display: unset;
+    }
+
+    .row-reverse {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    h1 {
+        font-size: 52px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    .column-avatar {
+        margin-top: 32px;
+    }
+
+    .list-product {
+        display: flex;
+        gap: 16px;
+        overflow-x: hidden;
+        scroll-snap-type: x mandatory;
+    }
+
+    .card {
+        min-width: 100%;
+        width: 100%;
+    }
+}
