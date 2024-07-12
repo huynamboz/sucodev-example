@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Thẻ a</h2>
+  <a href="https://www.google.com" target="_blank">Google</a>
+  <a href="./bg.png" download>
+    <img width="300" src="./bg.png" alt="bg.png">
+  </a>
+  <a href="#reset">Đi đến nút reset</a>
+  <h2>Tạo bảng trong HTML</h2>
+  <table style="width: 500px; border-collapse: collapse; border-color: rgb(0, 26, 255);" border="1">
+    <thead>
+      <tr>
+        <td>#</td>
+        <td>Họ</td>
+        <td>Tên</td>
+        <td>Giới tính</td>
+        <td>Lương</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Nguyễn</td>
+        <td>Văn A</td>
+        <td>Nam</td>
+        <td>1000</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Trần</td>
+        <td>Thị B</td>
+        <td>Nữ</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Phạm</td>
+        <td>Văn C</td>
+        <td>Nam</td>
+        <td>3000</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Tổng lương</td>
+        <td>6000</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <h2>
+    Form đăng ký
+  </h2>
+  <!-- form từ table -->
+  <form action="">
+    <table>
+      <!-- username -->
+      <tr >
+        <td>Username</td>
+        <td><input type="email" name="username"></td>
+      </tr>
+      <!-- age -->
+      <tr>
+        <td>Age</td>
+        <td><input type="number" name="age"></td>
+      </tr>
+      <!-- email -->
+      <tr>
+        <td>Email</td>
+        <td><input type="email" name="username"></td>
+      </tr>
+      <tr>
+        <td>Password</td>
+        <td><input type="password" name="password"></td>
+      </tr>
+      <tr>
+        <td>
+          <button type="submit">Login</button>
+        </td>
+        <!-- reset -->
+        <td>
+          <button type="reset" id="reset">Reset</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
