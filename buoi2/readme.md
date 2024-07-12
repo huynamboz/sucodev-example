@@ -1,3 +1,4 @@
+# Form trong html
 * input
   Gồm các type:
   - text: Cho phép nhập dữ liệu dạng text
@@ -24,3 +25,5 @@
   Có các type:
   - submit: Gửi dữ liệu
   - reset: Xóa thông tin đã nhập trên form
+
+# Table trong html
